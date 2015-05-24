@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+@import url("http://fonts.googleapis.com/css?family=PT+Serif:400,700");
 
 /*
 	Photon by HTML5 UP
@@ -28,7 +28,7 @@
 
 	body, input, select, textarea {
 		color: #666;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'PT Serif', serif;;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -934,11 +934,9 @@
 		}
 
 		.main.style2 {
-			background-color: #333;
+			background-color: #003366;
 			color: rgba(255, 255, 255, 0.75);
-			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../images/header.jpg");
-			background-size: auto,							cover;
+			background-size: auto;
 		}
 
 			.main.style2 a {
@@ -1026,11 +1024,10 @@
 	#header {
 		padding: 9em 0 9em 0;
 		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		color: #003399;
+		background-attachment: fixed;
+		background-image: url("images/tables.jpg");
+		background-size: auto;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -1185,7 +1182,7 @@
 			transition: -o-opacity 1s ease;
 			transition: -ms-opacity 1s ease;
 			transition: opacity 1s ease;
-			background-image: linear-gradient(45deg, #4fa49a, #4361c2);
+			background-image: url("images/tables.jpg");
 			content: '';
 			height: 100%;
 			left: 0;
@@ -1222,12 +1219,12 @@
 	#footer {
 		padding: 6em 0 6em 0;
 		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		color: #003366;
+		background-size: auto;
 		text-align: center;
+		background-image: url("images/tables.jpg");
+		opacity: 0.5;
+		overflow:hidden; 
 	}
 
 		#footer a {
@@ -1322,6 +1319,7 @@
 		}
 
 			#footer .copyright li {
+				opacity: 1;
 				border-left: solid 1px;
 				display: inline-block;
 				line-height: 1em;
